@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" type="camera-icon" href="photos/r_icon.png" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact</title>
+  <link rel="stylesheet" href="contact_style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Ramaraja&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet" />
+</head>
+
+<body>
+  <div class="page">
+    <header class="topbar">
+      <h1 class="site_title">Rowan Potts</h1>
+      <nav class="links_list">
+        <a href="index.html" class="link_button"><button class="buttons">Home</button></a>
+        <a href="about.html" class="link_button"><button class="buttons">About</button></a>
+        <a href="https://www.instagram.com/pottsey.photos/" target="_blank" class="link_button"><button
+            class="buttons">Instagram</button></a>
+      </nav>
+    </header>
+
+    <main class="contact_layout">
+      <section class="contact_intro">
+        <h2 class="main_heading">Contact Me</h2>
+        <p class="intro_text">
+          If you are interested in portraits, events, sports, or editorial work, send me a message here and I will get
+          back to you as soon as I can.
+        </p>
+        <p class="intro_text">
+          You can use the form for photography inquiries, project questions, or anything else you would like to reach
+          out about.
+        </p>
+      </section>
+
+      <form class="contact_form" action="https://formspree.io/f/mbdpgqay" method="post">
+        <h3 class="form_heading">Send a message</h3>
+        <input type="text" name="first" placeholder="First Name" autocapitalize="off" required />
+        <input type="text" name="last" placeholder="Last Name" autocapitalize="off" required />
+        <input type="email" name="email" placeholder="Email Address" autocapitalize="off" required />
+        <textarea name="message" placeholder="Your message. You can also leave your phone number or best email for a reply."
+          rows="6" autocomplete="off" required></textarea>
+        <button class="form_button" type="submit">Send Message</button>
+      </form>
+    </main>
+  </div>
+</body>
+
+</html>
