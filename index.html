@@ -24,7 +24,14 @@
         <!-- site title -->
         <h1 class="header">Rowan Potts Photography</h1>
         <input class="nav_toggle" type="checkbox" id="nav_toggle" />
-        <label class="menu_tab" for="nav_toggle">Menu</label>
+        <label class="menu_tab" for="nav_toggle" aria-label="Toggle navigation menu">
+          <span class="sr_only">Toggle navigation menu</span>
+          <span class="menu_icon" aria-hidden="true">
+            <span></span>
+            <span></span>
+            <span></span>
+          </span>
+        </label>
         <!-- nav links -->
         <div class="links">
           <a href="about.html"><button class="buttons">
@@ -35,6 +42,9 @@
             </button></a>
           <a href="https://www.instagram.com/pottsey.photos/" target="_blank"><button class="buttons">
               My Instagram
+            </button></a>
+          <a href="https://www.linkedin.com/in/rowan-potts-7a2a72305/" target="_blank" rel="noopener noreferrer"><button class="buttons">
+              LinkedIn
             </button></a>
         </div>
       </header>
